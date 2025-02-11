@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Basics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
 </head>
 <body>
-    <h2>JavaScript Test</h2>
-    <button onclick="sayHello()">Click Me</button>
-    
-    <script src="script.js"></script>  <!-- This links your JavaScript file -->
+    <div class="container">
+        <h1 id="heading">Welcome to JavaScript Beyond the Basics!</h1>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Nivaro</h5>
+                <pre><code id="output"></code></pre>
+            </div>
+        </div>
+        <button onclick="displayVariables()">Display Variables</button>
+        <button onclick="displayArray()">Display Array</button>
+        <button onclick="displayPerson()">Display Person</button>
+    </div>
+
+    <script src="javascript_activity.js"></script>
 </body>
 </html>
