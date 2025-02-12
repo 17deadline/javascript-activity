@@ -75,6 +75,13 @@ console.log(heading2);
 document.body.appendChild(heading2);
 
 
+//me testing out what creating a new element does
+var nonsense = document.createElement("randomnonsense");
+nonsense.innerHTML = "if the element isn't a pre-existing HTML ID tag, what does it put?";
+console.log(nonsense);
+document.body.appendChild(nonsense);
+
+
 function displayVariables() {
 var output = document.getElementById('output');
 output.textContent = 'Message: ' + message + ', Age: ' + age + ', Is student? ' + isStudent;
